@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: excel-server
+
+server:
+  port: 8004
+
+eureka:
+  instance:
+    hostname: localhost
+  client: 
+    serviceUrl:
+      defaultZone: http://localhost:8001/eureka/

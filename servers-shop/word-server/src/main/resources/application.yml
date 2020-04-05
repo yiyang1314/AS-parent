@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: word-server
+
+server:
+  port: 8003
+
+eureka:
+  instance:
+    hostname: localhost
+  client: 
+    serviceUrl:
+      defaultZone: http://localhost:8001/eureka/
